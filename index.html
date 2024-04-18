@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <!-- CSS file -->
+    <link rel="stylesheet" href="./css/index.css" />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Frontend Mentor | NFT preview card component</title>
+  </head>
+  <body>
+    <main>
+      <!-- NFT Card component -->
+      <article class="nft_card">
+        <!-- Header -->
+        <header class="nft_header">
+          <div class="nft_img_container">
+            <img
+              src="./images/image-equilibrium.jpg"
+              alt="Equilibrium NFT Image"
+            />
+          </div>
+        </header>
+        <!-- Body -->
+        <div class="nft_body">
+          <h1 class="nft_title">Equilibrium #3429</h1>
+          <p class="details">
+            Our Equilibrium collection promotes balance and calm.
+          </p>
+          <!-- Price/Time -->
+          <div class="nft_price_time">
+            <p class="nft_price">
+              <span><img src="./images/icon-ethereum.svg" alt="" /></span>0.041
+              ETH
+            </p>
+            <p class="nft_time_limited">
+              <span><img src="./images/icon-clock.svg" alt="" /></span>3 days
+              left
+            </p>
+          </div>
+        </div>
+        <div class="divider"></div>
+        <!-- Footer -->
+        <div class="nft_footer">
+          <div class="nft_creator">
+            <img src="./images/image-avatar.png" alt="Creator Avatar" />
+            <p>Creation of <span class="creator">Jules Wyvern</span></p>
+          </div>
+        </div>
+      </article>
+    </main>
+  </body>
+</html>
