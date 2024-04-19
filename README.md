@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://dathedumbguy.github.io/FEM_nft_preview_card/)
+- Live Site URL: [NFT Preview Card](https://dathedumbguy.github.io/FEM_nft_preview_card/)
 
 ## My process
 
